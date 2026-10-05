@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAISON — Interior Design Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">MAISON<span>.</span></a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact" class="nav-cta">Get in Touch</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 1 — HERO
+  ═══════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1800&auto=format&fit=crop&q=80"
+        alt="Elegant interior living room"
+        class="hero-img"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Award-Winning Studio · Est. 2012</p>
+      <h1 class="hero-title reveal">
+        We Design<br />
+        <em>Spaces That</em><br />
+        Inspire Living
+      </h1>
+      <p class="hero-sub reveal">
+        Luxury interior design and architecture services tailored to your vision —
+        from concept to the final brushstroke.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#portfolio" class="btn btn-primary">Explore Our Work</a>
+        <a href="#about" class="btn btn-ghost">Our Story</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+
+    <!-- Floating badge -->
+    <div class="hero-badge reveal">
+      <svg viewBox="0 0 100 100" class="badge-ring"><path id="badge-text-path" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"/><text font-size="11.5" fill="#c9a96e" letter-spacing="3.5"><textPath href="#badge-text-path">LUXURY INTERIORS · SINCE 2012 · </textPath></text></svg>
+      <div class="badge-center">★</div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 2 — SERVICES
+  ═══════════════════════════════════════════ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">What We Do</p>
+        <h2 class="section-title">Our Expertise</h2>
+        <p class="section-sub">Every space tells a story. We help you write yours with precision, beauty, and soul.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <span class="service-num">01</span>
+          <h3>Residential Design</h3>
+          <p>Bespoke interiors for private homes and apartments — where every corner reflects who you are.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <span class="service-num">02</span>
+          <h3>Commercial Spaces</h3>
+          <p>From boutique hotels to corporate offices — we create environments that leave lasting impressions.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <span class="service-num">03</span>
+          <h3>Space Planning</h3>
+          <p>Optimising flow and function without sacrificing aesthetic — the perfect balance of form and utility.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <span class="service-num">04</span>
+          <h3>Custom Furniture</h3>
+          <p>One-of-a-kind pieces crafted by artisans to complement and elevate any interior concept.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+          </div>
+          <span class="service-num">05</span>
+          <h3>3D Visualisation</h3>
+          <p>Photorealistic renders that let you walk through your future space before a single wall is touched.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          </div>
+          <span class="service-num">06</span>
+          <h3>Styling & Staging</h3>
+          <p>Curated art, textiles, and accessories that breathe life and personality into finished interiors.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 3 — ABOUT / STATS
+  ═══════════════════════════════════════════ -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+
+      <div class="about-images reveal">
+        <div class="about-img-main">
+          <img
+            src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&auto=format&fit=crop&q=80"
+            alt="Designer at work"
+          />
+        </div>
+        <div class="about-img-secondary">
+          <img
+            src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&auto=format&fit=crop&q=80"
+            alt="Modern living space"
+          />
+        </div>
+        <div class="about-award reveal">
+          <span class="award-year">2024</span>
+          <span class="award-label">Interior Design<br/>Award Winner</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <p class="section-eyebrow reveal">Our Story</p>
+        <h2 class="section-title reveal">Crafting Beauty<br /><em>Since 2012</em></h2>
+        <p class="about-text reveal">
+          MAISON was founded on a single belief: that exceptional design is not a luxury — it is a way of living. Our team of 24 designers, architects, and craftspeople collaborate on every project with an unwavering commitment to detail and originality.
+        </p>
+        <p class="about-text reveal">
+          From a minimalist penthouse in New York to a sun-drenched villa in the Algarve, we bring the same passion and precision to every brief we receive.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat reveal">
+            <span class="stat-num" data-target="340">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat-num" data-target="24">0</span>
+            <span class="stat-label">Expert Designers</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat-num" data-target="18">0</span>
+            <span class="stat-label">Countries Served</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat-num" data-target="12">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn btn-primary reveal">Work With Us</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 4 — PORTFOLIO
+  ═══════════════════════════════════════════ -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Our Work</p>
+        <h2 class="section-title">Selected Projects</h2>
+      </div>
+
+      <div class="portfolio-filter reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <div class="portfolio-item large reveal" data-category="residential">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=900&auto=format&fit=crop&q=80" alt="The Oslo Residence" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-tag">Residential</span>
+                <h3>The Oslo Residence</h3>
+                <p>Oslo, Norway · 2024</p>
+                <a href="#contact" class="portfolio-link">View Project →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-category="commercial">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&auto=format&fit=crop&q=80" alt="Atrium Office HQ" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-tag">Commercial</span>
+                <h3>Atrium Office HQ</h3>
+                <p>London, UK · 2024</p>
+                <a href="#contact" class="portfolio-link">View Project →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-category="hospitality">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=700&auto=format&fit=crop&q=80" alt="Hotel Lumière Suite" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-tag">Hospitality</span>
+                <h3>Hotel Lumière Suite</h3>
+                <p>Paris, France · 2023</p>
+                <a href="#contact" class="portfolio-link">View Project →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-category="residential">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=700&auto=format&fit=crop&q=80" alt="Malibu Beach House" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-tag">Residential</span>
+                <h3>Malibu Beach House</h3>
+                <p>California, USA · 2023</p>
+                <a href="#contact" class="portfolio-link">View Project →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item large reveal" data-category="hospitality">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&auto=format&fit=crop&q=80" alt="Villa Serena Resort" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-tag">Hospitality</span>
+                <h3>Villa Serena Resort</h3>
+                <p>Algarve, Portugal · 2023</p>
+                <a href="#contact" class="portfolio-link">View Project →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-category="commercial">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=700&auto=format&fit=crop&q=80" alt="Noir Boutique" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-tag">Commercial</span>
+                <h3>Noir Boutique</h3>
+                <p>Milan, Italy · 2022</p>
+                <a href="#contact" class="portfolio-link">View Project →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="portfolio-cta reveal">
+        <a href="#contact" class="btn btn-outline">View All Projects</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 5 — TESTIMONIALS
+  ═══════════════════════════════════════════ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Client Words</p>
+        <h2 class="section-title">What Our Clients Say</h2>
+      </div>
+
+      <div class="testimonials-slider">
+        <div class="testimonials-track" id="testimonials-track">
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote">
+              <svg viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 30V18.75C0 8.438 5.833 2.5 17.5 0L20 4.688C14.167 6.146 11.25 9.479 11.25 14.688H17.5V30H0ZM22.5 30V18.75C22.5 8.438 28.333 2.5 40 0L37.5 4.688C31.667 6.146 28.75 9.479 28.75 14.688H35V30H22.5Z" fill="#c9a96e" opacity="0.35"/></svg>
+            </div>
+            <p class="testimonial-text">
+              "Working with MAISON was an extraordinary experience. They transformed our apartment into a serene sanctuary that feels both incredibly luxurious and deeply personal. Every detail was considered."
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&auto=format&fit=crop&q=80" alt="Sarah Mitchell" />
+              <div>
+                <span class="author-name">Sarah Mitchell</span>
+                <span class="author-role">Creative Director, New York</span>
+              </div>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote">
+              <svg viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 30V18.75C0 8.438 5.833 2.5 17.5 0L20 4.688C14.167 6.146 11.25 9.479 11.25 14.688H17.5V30H0ZM22.5 30V18.75C22.5 8.438 28.333 2.5 40 0L37.5 4.688C31.667 6.146 28.75 9.479 28.75 14.688H35V30H22.5Z" fill="#c9a96e" opacity="0.35"/></svg>
+            </div>
+            <p class="testimonial-text">
+              "The team at MAISON redesigned our flagship hotel's lobby and restaurant spaces. The result exceeded every expectation. Bookings have increased by 40% since the renovation — guests are captivated."
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&auto=format&fit=crop&q=80" alt="James Thornton" />
+              <div>
+                <span class="author-name">James Thornton</span>
+                <span class="author-role">Hotel Group CEO, London</span>
+              </div>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote">
+              <svg viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 30V18.75C0 8.438 5.833 2.5 17.5 0L20 4.688C14.167 6.146 11.25 9.479 11.25 14.688H17.5V30H0ZM22.5 30V18.75C22.5 8.438 28.333 2.5 40 0L37.5 4.688C31.667 6.146 28.75 9.479 28.75 14.688H35V30H22.5Z" fill="#c9a96e" opacity="0.35"/></svg>
+            </div>
+            <p class="testimonial-text">
+              "From the very first consultation, I knew MAISON understood my vision perfectly. Our villa is now featured in three international design publications. I could not be happier with the outcome."
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=80&h=80&auto=format&fit=crop&q=80" alt="Elena Vasquez" />
+              <div>
+                <span class="author-name">Elena Vasquez</span>
+                <span class="author-role">Entrepreneur, Lisbon</span>
+              </div>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote">
+              <svg viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 30V18.75C0 8.438 5.833 2.5 17.5 0L20 4.688C14.167 6.146 11.25 9.479 11.25 14.688H17.5V30H0ZM22.5 30V18.75C22.5 8.438 28.333 2.5 40 0L37.5 4.688C31.667 6.146 28.75 9.479 28.75 14.688H35V30H22.5Z" fill="#c9a96e" opacity="0.35"/></svg>
+            </div>
+            <p class="testimonial-text">
+              "MAISON delivered our new office HQ on time and on budget — which in itself is remarkable. The quality of thinking, materials, and execution was on another level. Our team love coming to work now."
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&auto=format&fit=crop&q=80" alt="Marcus Osei" />
+              <div>
+                <span class="author-name">Marcus Osei</span>
+                <span class="author-role">Founder, TechScale · Lagos</span>
+              </div>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-btn" id="slider-prev" aria-label="Previous">&#8592;</button>
+          <div class="slider-dots" id="slider-dots"></div>
+          <button class="slider-btn" id="slider-next" aria-label="Next">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 6 — CONTACT CTA
+  ═══════════════════════════════════════════ -->
+  <section class="contact-cta" id="contact">
+    <div class="cta-bg">
+      <img
+        src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=1800&auto=format&fit=crop&q=80"
+        alt="Luxury interior"
+        class="cta-bg-img"
+      />
+      <div class="cta-overlay"></div>
+    </div>
+    <div class="container cta-inner">
+      <div class="cta-content reveal">
+        <p class="section-eyebrow">Start a Project</p>
+        <h2 class="section-title">Let's Create<br/><em>Something Beautiful</em></h2>
+        <p class="cta-sub">Ready to transform your space? Tell us about your project and we'll be in touch within 24 hours.</p>
+        <div class="cta-form reveal">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" class="form-input" />
+            <input type="email" placeholder="Your Email" class="form-input" />
+          </div>
+          <select class="form-input form-select">
+            <option value="" disabled selected>Service You're Interested In</option>
+            <option>Residential Design</option>
+            <option>Commercial Spaces</option>
+            <option>Hospitality</option>
+            <option>Space Planning</option>
+            <option>Custom Furniture</option>
+            <option>3D Visualisation</option>
+          </select>
+          <textarea placeholder="Tell us about your project..." class="form-input form-textarea" rows="4"></textarea>
+          <button class="btn btn-primary btn-full" type="submit">Send Message</button>
+        </div>
+      </div>
+      <div class="cta-info reveal">
+        <div class="info-block">
+          <span class="info-label">Visit Us</span>
+          <span class="info-value">12 Rue du Faubourg, Paris, France</span>
+        </div>
+        <div class="info-block">
+          <span class="info-label">Email Us</span>
+          <span class="info-value">hello@maison-studio.com</span>
+        </div>
+        <div class="info-block">
+          <span class="info-label">Call Us</span>
+          <span class="info-value">+33 1 23 45 67 89</span>
+        </div>
+        <div class="info-block">
+          <span class="info-label">Studio Hours</span>
+          <span class="info-value">Mon – Fri: 9am – 6pm</span>
+        </div>
+        <div class="cta-social">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.04-2.83.18-.77 1.22-5.16 1.22-5.16s-.31-.62-.31-1.55c0-1.45.84-2.53 1.89-2.53.89 0 1.32.67 1.32 1.47 0 .9-.57 2.24-.87 3.48-.25 1.04.52 1.88 1.54 1.88 1.84 0 3.09-2.36 3.09-5.15 0-2.13-1.43-3.73-4.01-3.73-2.93 0-4.77 2.19-4.77 4.65 0 .85.25 1.44.63 1.9.18.21.2.29.14.54-.05.17-.15.59-.19.76-.06.25-.25.34-.46.25-1.29-.53-1.9-1.95-1.9-3.55 0-2.65 2.24-5.83 6.69-5.83 3.58 0 5.93 2.6 5.93 5.39 0 3.7-2.04 6.47-5.04 6.47-1.01 0-1.96-.54-2.28-1.16l-.62 2.38c-.23.86-.83 1.94-1.24 2.6.94.28 1.92.43 2.95.43 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+          </a>
+          <a href="#" aria-label="Houzz">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3L2 9v12h6v-6h8v6h6V9L12 3z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">MAISON<span>.</span></a>
+        <p>Designing spaces that inspire living — since 2012.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Studio</h4>
+          <a href="#about">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="#services">Residential</a>
+          <a href="#services">Commercial</a>
+          <a href="#services">Hospitality</a>
+          <a href="#services">Custom Furniture</a>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">Houzz</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 MAISON Studio. All rights reserved.</p>
+      <p>Design reference: <a href="https://dribbble.com/tags/interior_design" target="_blank" rel="noopener">Dribbble — Interior Design UI</a></p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
